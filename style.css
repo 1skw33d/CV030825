@@ -208,17 +208,16 @@ h2 {
     color: #666;
 }
 
-/* Educational Background */
 /* Educational Background Section */
 .educational-background {
     text-align: center;
     padding: 60px 20px;
-    width: 100vw; /* Full viewport width */
-    margin-left: -200px; /* Counteracts body margin */
-    padding-left: 200px; /* Keeps content aligned */
+    width: 100vw;
+    margin-left: -200px;
+    padding-left: 200px;
     padding-right: 200px;
-    background-color: #eaeaea; /* Slightly darker than white */
-    color: #333; /* Dark text for readability */
+    background-color: #eaeaea;
+    color: #333; 
 }
 
 /* Container for Education Items */
@@ -233,14 +232,14 @@ h2 {
 
 /* Individual Education Item */
 .education-item {
-    background: #f2f2f2; /* Soft gray background */
+    background: #f2f2f2;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 280px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    border: 1px solid #ccc; /* Light border */
+    border: 1px solid #ccc;
 }
 
 .education-item:hover {
@@ -259,13 +258,13 @@ h2 {
 .education-item h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #222; /* Darker text */
+    color: #222;
 }
 
 /* Education Details */
 .education-item p {
     font-size: 1rem;
-    color: #555; /* Medium gray text */
+    color: #555;
     margin: 0.5rem 0;
     text-align: center;
 }
@@ -303,9 +302,9 @@ h2 {
 .testimonial-container {
     display: flex;
     justify-content: center;
-    align-items: stretch; /* Ensures uniform height */
+    align-items: stretch;
     gap: 30px;
-    flex-wrap: wrap; /* Allows wrapping if there are too many testimonials */
+    flex-wrap: wrap;
 }
 
 /* Make testimonials equal in size */
@@ -314,14 +313,13 @@ h2 {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 350px; /* Limit width for better alignment */
+    max-width: 350px;
     width: 100%;
     text-align: center;
-    flex: 1; /* Makes all cards have equal width */
-    min-width: 250px; /* Prevents the cards from becoming too narrow */
+    flex: 1;
+    min-width: 250px;
 }
 
-/* Make client images look good */
 .client-img {
     width: 80px;
     height: 80px;
@@ -330,21 +328,18 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Adjust rating styles */
 .rating {
     font-size: 18px;
     color: #f39c12;
     margin: 5px 0;
 }
 
-/* Quote styling */
 .quote {
     font-size: 16px;
     font-style: italic;
     color: #555;
 }
 
-/* Name of the person */
 .testimonial-card h4 {
     margin-top: 10px;
     font-size: 18px;
@@ -371,12 +366,12 @@ h2 {
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: #fff; /* White text */
+    color: #fff;
 }
 
 .contact-me p {
     font-size: 16px;
-    color: #ddd; /* Lighter text for better readability */
+    color: #ddd;
     margin-bottom: 20px;
 }
 
@@ -402,7 +397,7 @@ h2 {
 
 .contact-info p {
     margin: 8px 0;
-    color: #ccc; /* Lighter text */
+    color: #ccc;
 }
 
 /* Contact Form */
@@ -418,12 +413,12 @@ h2 {
 .contact-form textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #555; /* Slightly darker border */
+    border: 1px solid #555;
     border-radius: 5px;
     font-size: 16px;
     font-family: inherit;
-    background: #333; /* Darker input background */
-    color: #fff; /* Light text */
+    background: #333;
+    color: #fff;
 }
 
 .contact-form textarea {
@@ -432,14 +427,14 @@ h2 {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-    color: #bbb; /* Lighter placeholder text */
+    color: #bbb;
 }
 
 .contact-form button {
     padding: 12px;
     border: none;
-    background: #fff; /* White button */
-    color: #000; /* Black text */
+    background: #fff;
+    color: #000;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
@@ -452,7 +447,6 @@ h2 {
     color: #000;
 }
 
-/* Back to Top Button */
 /* Back to Top Button */
 #backToTop {
     position: fixed;
@@ -473,7 +467,7 @@ h2 {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     opacity: 0;
     transform: scale(0);
-    z-index: 1000; /* Ensures button is above everything */
+    z-index: 1000;
 }
 
 #backToTop.show {
